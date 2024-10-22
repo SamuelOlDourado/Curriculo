@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial,sans-serif;
+}
+
+.cabecalho{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 10px;
+}
+
+.menus{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #121d3c;
+    font-family: "Arial Rounded MT";
+    font-size: 18px;
+}
+
+.cabecalho a:hover{
+    transition: color 0.5s ease, background-color 0.5s ease;
+    background-color: #121d3c;
+    color: rgb(255, 255, 255);
+}
+
+.banner{
+    background: #ddf8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.bannerfilho{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+h1{
+    font-family: Bahnschrift;
+}
+
+.bannerimg img{
+    width: 300px;
+    height: 280px;
+}
+
+.bannerimg img:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+.inform li{
+    list-style: none;
+    margin: 20px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    padding: 30px 100px;
+    text-align: justify;
+    gap: 100px;
+    background-color: #d9ebf4;
+}
+
+.paiapresenta1,
+.paiapresenta2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.bloco{
+    justify-content: space-between;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #8a8ba0;
+    padding: 10px;
+    font-family: Arial;
+    width: 50%;
+    font-size: 16px;
+    text-align: justify;
+    background-color: #f5fffc;
+    margin: 20px;
+}
+
+.bloco:hover{
+    transition: transform 0.9s ease;
+    transform: scale(1.1);
+}
+
+.sociais{
+    background-color: #262f40;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sociais img{
+    width: 150px;
+    height: 150px;
+}
+
+.sociais img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+}
+
+
+
